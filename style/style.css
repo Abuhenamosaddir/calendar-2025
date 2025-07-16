@@ -3,12 +3,13 @@
     grid-template-columns: repeat(7,1fr);
     row-gap: 25px;
     column-gap: 35px;
-
+    grid-template-rows: repeat 30px (5, 50px);
 
 }
 .date , .day{
-    background-color: aquamarine;
+    background-color: white;
     border-radius: 15px;
+
     height: 50px;
     display: flex;
     justify-content: center;
